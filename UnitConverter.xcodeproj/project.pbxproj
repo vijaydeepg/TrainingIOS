@@ -13,6 +13,8 @@
 		DEDAC5A91B354C30004675AD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEDAC5A81B354C30004675AD /* Images.xcassets */; };
 		DEDAC5AC1B354C30004675AD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEDAC5AA1B354C30004675AD /* LaunchScreen.xib */; };
 		DEDAC5B81B354C31004675AD /* UnitConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDAC5B71B354C31004675AD /* UnitConverterTests.swift */; };
+		DEDAC5C21B355B96004675AD /* TemperatureRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDAC5C11B355B96004675AD /* TemperatureRange.swift */; };
+		DEDAC5C41B355DF6004675AD /* UnitConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDAC5C31B355DF6004675AD /* UnitConverter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		DEDAC5B11B354C31004675AD /* UnitConverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitConverterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEDAC5B61B354C31004675AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DEDAC5B71B354C31004675AD /* UnitConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitConverterTests.swift; sourceTree = "<group>"; };
+		DEDAC5C11B355B96004675AD /* TemperatureRange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemperatureRange.swift; sourceTree = "<group>"; };
+		DEDAC5C31B355DF6004675AD /* UnitConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnitConverter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 				DEDAC5A31B354C30004675AD /* ViewController.swift */,
 				DEDAC5A51B354C30004675AD /* Main.storyboard */,
 				DEDAC5A81B354C30004675AD /* Images.xcassets */,
+				DEDAC5C11B355B96004675AD /* TemperatureRange.swift */,
+				DEDAC5C31B355DF6004675AD /* UnitConverter.swift */,
 				DEDAC5AA1B354C30004675AD /* LaunchScreen.xib */,
 				DEDAC59F1B354C30004675AD /* Supporting Files */,
 			);
@@ -214,6 +220,8 @@
 			files = (
 				DEDAC5A41B354C30004675AD /* ViewController.swift in Sources */,
 				DEDAC5A21B354C30004675AD /* AppDelegate.swift in Sources */,
+				DEDAC5C41B355DF6004675AD /* UnitConverter.swift in Sources */,
+				DEDAC5C21B355B96004675AD /* TemperatureRange.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
